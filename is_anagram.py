@@ -1,0 +1,7 @@
+def is_anagram(word1,word2):
+    return sorted(word1) == sorted(word2)
+    
+if is_anagram('rudi','dira'):
+    print('Anagram')
+else:
+    print('Bukan Anagram')
